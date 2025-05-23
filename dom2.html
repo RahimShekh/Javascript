@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Dom|Chai or code|</title>
+</head>
+<body style="background-color: #212212; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wedenesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent') // parent is class
+    console.log(parent);
+    console.log(parent.children[1]);
+
+for(let i = 0; i  < parent.children.length; i++)
+{
+    console.log(parent.children[i].innerHTML)
+}
+</script>
+</html>
